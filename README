@@ -24,6 +24,9 @@ version of python, you need to get access to simplejson and httplib2.
 You can get simplejson from http://pypi.python.org/pypi/simplejson/
 and httplib2 from http://code.google.com/p/httplib2/.
 
+If you're installing fish on Mac OSX using python 2.7 you might also need to manually install httplib2.
+The simplest way to install it is to first install pip by issuing 'sudo easy_install pip' in terminal.
+Then to install httplib2 enter 'pip install httplib2'.  
 
 CREDENTIALS
 ===========
